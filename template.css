@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/*---menu de nav---*/
+nav {
+	height: 40px;
+	background:#a7e0ee;
+}
+nav ul {
+  background-color: black;
+  width:100%;
+  list-style-type: none;
+  text-align: center
+}
+
+nav li {
+  display: inline-flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width:150px;
+  }
+
+nav li:hover {
+   background-color: #962a8f;
+}
+/*---imagenes---*/
+
+
+
+/*---menu lateral---*/
+
+.contenido{
+  display: flex;
+  margin: 40px;
+}
+.articulos {
+  width: 75%;
+  border-right: 3px solid black;
+  padding: 20px;
+}
+.menu-secundario{
+  width: 20%;
+  margin-left: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.menu-secundario h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+.menu-secundario a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.menu-secundario a:hover {
+  background-color: #962a8f;
+  color: white;
+}
+
+/*---pie de pagina---*/
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  padding: 30px 0;
+}
